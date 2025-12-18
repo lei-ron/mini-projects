@@ -72,13 +72,15 @@ h1 {
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 2px solid #000000;
   padding: 1rem;
-  width: 50%;
+  width: 70%;
+  height: 70%;
   background-color: #1c1c1c;
   box-shadow: 4px 4px 0 #000000;
 }
